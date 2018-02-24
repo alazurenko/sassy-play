@@ -1,10 +1,7 @@
 {
-  "name": "sassy-play-project",
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "npm run start"
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
