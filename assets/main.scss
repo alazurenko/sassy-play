@@ -1,0 +1,13 @@
+@import './components/variables.scss';
+
+.board {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  blockquote {
+    font-style: $quote-style;
+  }
+}
