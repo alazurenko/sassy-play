@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "sassy-play": "index.js"
+  },
+  "repository": {
+    "url": "todo"
+  },
   "dependencies": {
-
+    "minimist": "^1.2.0"
   }
 }
