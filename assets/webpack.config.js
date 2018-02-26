@@ -7,13 +7,16 @@ module.exports = {
   },
   module: {
     rules: [{
-        test: /\.scss$/,
-        loader: "style-loader!css-loader!sass-loader",
-
-        // To include other libraries into sass compilation
-        // options: {
-        //   includePaths: []
-        // }
+      test: /\.scss$/,
+      use: [
+        { loader: "style-loader" },
+        { loader: "css-loader" },
+        { loader: "sass-loader",
+          // To include other libraries for Sass compilation
+          // options: {
+          //   includePaths: []
+          // }
+        }]
     }]
   },
   devServer: {
