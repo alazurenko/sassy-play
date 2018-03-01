@@ -4,6 +4,9 @@
   "description": "Starter with Sass environment powered by Webpack",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "sass", "webpack", "playground", "starter", "cli"
+  ],
   "bin": {
     "sassy-play": "index.js"
   },
