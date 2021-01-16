@@ -1,4 +1,4 @@
-@import './components/variables.scss';
+@use 'variables';
 
 .board {
   display: flex;
@@ -7,8 +7,5 @@
   align-items: center;
   margin: auto;
   font-size: 2em;
-
-  blockquote {
-    font-style: $quote-style;
-  }
+  font-family: variables.$font-family;
 }
