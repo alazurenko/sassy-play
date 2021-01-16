@@ -1,7 +1,7 @@
 {
   "name": "sassy-play",
-  "version": "0.0.2",
-  "description": "Starter with Sass environment powered by Webpack",
+  "version": "1.0.0",
+  "description": "Starter with Sass environment powered by Snowpack",
   "main": "index.js",
   "license": "MIT",
   "bin": {
