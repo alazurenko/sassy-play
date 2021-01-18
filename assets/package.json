@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "start": "snowpack dev"
+    "start": "node node_modules/snowpack/index.bin.js dev"
   },
   "devDependencies": {
     "@snowpack/plugin-sass": "^1.3.0",
+    "sass": "^1.32.4",
     "snowpack": "^3.0.11"
   }
 }
